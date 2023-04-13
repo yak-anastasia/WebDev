@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Инструменты для веб-разработки</title>
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <header>
+    <nav class="navbar header fixed-top">
+        <div class="container-fluid">
+            <a href="../index.html"><img class="img-fluid" src="../img/logo.svg" alt="WebDev"></a>
+            <h1 id="header">Angular</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas menu offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Меню</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <!-- Аккордеон -->
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <!-- Visual Studio Code -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Visual Studio Code
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <ul>
+                    <li><a href="../VS code/vscode.html">О программе</a></li>
+                    <li><a href="../VS code/git.html">Git</a></li>
+                    <li><a href="../VS code/plugins.html">Плагины</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Frontend -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpenheadingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Frontend
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <ul>
+                    <li><a href="jquery.html">jQuery</a></li>
+                    <li><a href="react.html">React.js</a></li>
+                    <li><a href="vue.html">Vue.js</a></li>
+                    <li><a href="#">Angular</a></li>
+                    <li><a href="preprocessors.html">Препроцессоры</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Backend -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpenheadingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Backend
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <ul>
+                    <li><a href="../Backend/ospanel.html">Open Server Panel</a></li>
+                    <li><a href="../Backend/laravel.html">Laravel</a></li>
+                    <li><a href="../Backend/django.html">Django</a></li>
+                    <li><a href="../Backend/node.html">Node.js</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Практические задания -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpenheadingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                  Практические задания
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                <div class="accordion-body">
+                  <ul>
+                        <li><a href="../practice.html">Практика по jQuery</a></li>
+                        <li><a href="../practice.html#react">Практика по React.js</a></li>
+                        <li><a href="../practice.html#vue">Практика по Vue.js</a></li>
+                        <li><a href="../practice.html#angular">Практика по Angular</a></li>
+                        <li><a href="../practice.html#laravel">Практика по Laravel</a></li>
+                        <li><a href="../practice.html#django">Практика по Django</a></li>
+                        <li><a href="../practice.html#nodejs">Практика по Node.js</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+</nav>
+</header>
+<!-- Раздел с текстом и картинками -->
+<main>
+  <div class="container main">
+    <div class="row">
+      <div class="col-12">
+        <h2>Что такое Angular</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p>Angular - популярная платформа веб-разработки, разработанная и поддерживаемая Google. Angular использует TypeScript в качестве основного языка программирования. Редактор кода Visual Studio поддерживает TypeScript IntelliSense и навигацию по коду "из коробки", поэтому вы можете выполнять разработку Angular без установки какого-либо другого расширения. Ознакомиться с Visual Studio Code можете <a href="../VS code/vscode.html">здесь</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h2>Устройство фреймворка Angular</h2>
+        <img class="img-fluid" src="../img/Frontend/Angular.jpg" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h3>Компоненты</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p>Компоненты — это большие составные части приложения, не зависящие друг от друга. Например, один компонент — это лента новостей, другой — шапка сайта. Приложение строится из них, как из блоков. Обычно каждый компонент хранится в отдельном файле. Для него можно создать свои HTML-шаблон и CSS-стили. Они могут находиться в том же файле, что и компонент, а могут подключаться отдельно. Создается готовый блок интерфейса со структурой, стилями и определенной логикой поведения.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h3>Модули</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p>Это тоже составные части приложения, но другие. Они управляют компонентами. Если компонент — это область приложения, то модуль отвечает за управление ею. Точка входа в приложение, код для анимации или навигации — это всё модули.</p>
+        <p>Главный модуль есть в каждом проекте. Дополнительные добавляются по мере необходимости и выполняют конкретные задачи. Они нужны, чтобы не перегружать основной модуль лишней функциональностью и не делать его слишком громоздким.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h3>Формы</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p>Большинство приложений на Angular — form-based, то есть основанные на формах. Форма — это структура, в которую пользователь вводит какие-либо данные, а потом отправляет их на сервер. Блок для написания комментария или для обратной связи — это форма.</p>
+        <p>Angular делает работу с формами проще: их не приходится писать с нуля. Для них уже созданы шаблоны, которые нужно адаптировать под новую задачу.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h3>Сервисы</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p>Они похожи на компоненты, но более узкоспециализированные. Они могут определяться как на уровне модуля, так и на уровне компонента или приложения. В сервисах реализуется специальная логика. Они подключаются к приложению в качестве обычного класса и используются для хранения глобального состояния приложения. Также используются в качестве поставщика данных.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h3>Директивы</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p>Это составные части приложения, которые меняют структуру или поведение страницы. Компоненты тоже относятся к директивам. Но кроме них существуют еще два вида: структурные директивы и директивы, изменяющие внешний вид или поведение элементов. Они нужны, чтобы применить одно действие ко всем экземплярам одного компонента — например, изменение валюты во всех карточках товара.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h2>Что необходимо для работы с Angular</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h3>Node.js</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p>Это платформа для работы с JavaScript и TypeScript. Node.js нужна для установки и запуска Angular.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h3>Npm</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p>Это пакетный менеджер, который позволяет с помощью одной команды скачать нужный пакет данных. С его помощью обычно устанавливают фреймворки и библиотеки. Его пакеты также требуются для нормальной работы Angular. Обычно npm уже включен в Node.js.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h3>TypeScript</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p>Писать на Angular можно и на чистом JavaScript, и на других его вариациях. Но так как TypeScript является основным для фреймворка, должна быть возможность с ним работать.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h2>Установка Angular</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p>Для установки и использования интерфейса командной строки, а также для запуска сервера приложений Angular вам потребуется Node.js. Ознакомиться с Node.js можете <a href="../Backend/node.html">здесь</a></p> 
+        <p>Среда выполнения JavaScript и npm (the Node.js менеджер пакетов) установлены изначально, npm включен в Node.js который вы можете установить при загрузке Node.js. Чтобы проверить, что у вас есть Node.js и npm, правильно установленный на вашем компьютере, вы можете ввести <span>node --version</span>  и  <span>npm --version</span>.</p>
+        <p>Чтобы установить Angular CLI, введите в терминале или командной строке:</p>
+        <code>npm install -g @angular/cli</code>
+        <p>Установка может занять несколько минут. Теперь вы можете создать новое приложение Angular, введя:</p>
+        <code>ng new my-app</code>
+        <p><span>my-app</span> это имя папки для вашего приложения. <span>ng new</span> - команда предложит вам указать параметры для созданного приложения. Примите значения по умолчанию, нажав клавишу Enter. Создание приложения Angular в TypeScript и установка его зависимостей может занять несколько минут.</p>
+        <p>Давайте быстро запустим наше приложение Angular, перейдя в новую папку и введя <span>ng serve</span>, чтобы запустить веб-сервер и открыть приложение в браузере:</p>
+<code>cd my-app
+ng serve
+</code>
+        <p>Вы должны увидеть "Добро пожаловать в приложение !!" на <span>http://localhost:4200</span> в вашем браузере. Мы оставим веб-сервер запущенным, пока будем изучать приложение с помощью VS Code.</p>
+        <p>Чтобы открыть приложение Angular в VS Code, откройте другой терминал (или командную строку), перейдите к <span>my-app</span> папке и введите <span>code .</span>:</p>
+<code>cd my-app
+code .
+</code>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h2>Преимущества</h2>
+      </div>
+    </div>
+    <div class="row align-items-center justify-content-center gy-3">
+      <div class="col-12 col-md-6 col-xl-4 block">Двусторонняя привязка данных</div>
+      <div class="col-12 col-md-6 col-xl-4 block">Подробная документация</div>
+      <div class="col-12 col-md-6 col-xl-4 block">Быстрое написание кода</div>
+      <div class="col-12 col-md-6 col-xl-4 block">Высокая производительность</div>
+      <div class="col-12 col-md-6 col-xl-4 block">Регулярные обновления</div>
+      <div class="col-12 col-md-6 col-xl-4 block">Простые шаблоны</div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h2>Недостатки</h2>
+      </div>
+    </div>
+    <div class="row align-items-center justify-content-center">
+      <div class="col-12 col-md-6 block">Сложный синтаксис</div>
+      <div class="col-12 col-md-6 block">Проблемы с миграцией</div>
+      <div class="col-12 col-md-6 block">Требуется изучение отдельного языка</div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 mt-4 mb-4" id="btn_practice">
+        <a  href="../practice.html#angular">Перейти к практике</a>
+      </div>
+    </div>
+  </div>
+</main>
+<footer>
+  <h5>&copy WebDev 2023</h5>
+</footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

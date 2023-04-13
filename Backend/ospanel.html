@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Инструменты для веб-разработки</title>
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <header>
+    <nav class="navbar header fixed-top">
+        <div class="container-fluid">
+            <a href="../index.html"><img class="img-fluid" src="../img/logo.svg" alt="WebDev"></a>
+            <h1 id="header">Open Server Panel</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas menu offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Меню</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <!-- Аккордеон -->
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <!-- Visual Studio Code -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Visual Studio Code
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <ul>
+                    <li><a href="../VS code/vscode.html">О программе</a></li>
+                    <li><a href="../VS code/git.html">Git</a></li>
+                    <li><a href="../VS code/plugins.html">Плагины</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Frontend -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpenheadingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Frontend
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <ul>
+                    <li><a href="../Frontend/jquery.html">jQuery</a></li>
+                    <li><a href="../Frontend/react.html">React.js</a></li>
+                    <li><a href="../Frontend/vue.html">Vue.js</a></li>
+                    <li><a href="../Frontend/angular.html">Angular</a></li>
+                    <li><a href="../Frontend/preprocessors.html">Препроцессоры</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Backend -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpenheadingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Backend
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <ul>
+                    <li><a href="#">Open Server Panel</a></li>
+                    <li><a href="laravel.html">Laravel</a></li>
+                    <li><a href="django.html">Django</a></li>
+                    <li><a href="node.html">Node.js</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Практические задания -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpenheadingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                  Практические задания
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                <div class="accordion-body">
+                  <ul>
+                        <li><a href="../practice.html">Практика по jQuery</a></li>
+                        <li><a href="../practice.html#react">Практика по React.js</a></li>
+                        <li><a href="../practice.html#vue">Практика по Vue.js</a></li>
+                        <li><a href="../practice.html#angular">Практика по Angular</a></li>
+                        <li><a href="../practice.html#laravel">Практика по Laravel</a></li>
+                        <li><a href="../practice.html#django">Практика по Django</a></li>
+                        <li><a href="../practice.html#nodejs">Практика по Node.js</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+</nav>
+</header>
+    <main>
+      <div class="container main">
+        <div class="row">
+          <div class="col-12">
+            <h2>Что такое Open Server Panel</h2>
+            <img class="img-fluid" src="../img/Backend/ospanel.png" alt="">
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-12">
+          <p>Open Server — это портативный локальный WAMP/WNMP сервер, имеющий многофункциональную управляющую программу и большой выбор подключаемых компонентов. Программный комплекс имеет богатый набор серверного программного обеспечения, удобный, многофункциональный продуманный интерфейс, обладает мощными возможностями по администрированию и настройке компонентов.</p>
+          <p>OS Panel широко используется с целью разработки, отладки и тестирования веб-проектов, а также для предоставления веб-сервисов в локальных сетях. Проект существует уже более 10 лет, он успешно зарекомендовал себя как первоклассный, простой и надёжный инструмент, необходимый каждому веб-разработчику.</p>
+          <p>
+            Системные требования для Open Server Panel: <br>
+            32-битные системы не поддерживаются  <br>
+            Операционные системы: Windows 7 SP1 x64 / Windows Server 2008 R2 SP1 или новее <br>
+            Свободные аппаратные ресурсы: от 500 МБ RAM и от 5 ГБ места на  <br>
+            Системное ПО: MSVC++ 2005-2019 Redistributable Packages (есть в комплекте) <br>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h2>Что входит в пакет Open Server Panel</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <p> Доступно для скачивания две основные редакции сборки. Полная сборка помимо серверной платформы с Apache, Nginx, PHP, MySQL включает портативные программы для работы с графикой, офисные приложения и различные системные утилиты. Для получения подробной информации обо всех входящих в состав пакета программах опять же добро пожаловать на сайт разработчика.</p>
+          <p>Урезанная версия пакета содержит только серверную часть платформы и может быть рекомендована пользователям, которые планируют использовать Open Server в качестве альтернативы Денверу, Vertrigo или другим аналогичным приложениям.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h2>Особенности и возможности Open Server</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <ul>
+            <li>Не требует установки на компьютер — его можно запустить с флешки или внешнего жёсткого диска;</li>
+            <li>Одновременная работа с Denwer, Xampp и т.д.;</li>
+            <li>Работа на локальном/сетевом/внешнем IP;</li>
+            <li>Поддержка SSL без всякой дополн. настройки;</li>
+            <li>Создание домена путем создания обычной папки;</li>
+            <li>Поддержка кириллических доменов;</li>
+            <li>Поддержка алиасов (доменных указателей), а также удобная форма их настройки;</li>
+            <li>Защита сервера от внешнего доступа;</li>
+            <li>Punycode конвертер доменных имён;</li>
+            <li>Набор популярных сторонних расширений PHP;</li>
+            <li>Планировщик заданий (cron);</li>
+            <li>Создание локального поддомена без потери видимости основного домена в сети интернет;</li>
+            <li>Подробный просмотр логов всех компонентов в реальном времени;</li>
+            <li>Выбор HTTP, СУБД и PHP модулей в любом сочетании;</li>
+            <li>Доступ к доменам (в один клик) и быстрый доступ к шаблонам конфигурации модулей;</li>
+            <li>Мультиязычный интерфейс;</li>
+            <li>Автостарт сервера при запуске программы;</li>
+            <li>Быстро запускается и останавливается</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h2>Преимущества</h2>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-center gy-3">
+        <div class="col-12 col-md-6 col-xl-4 block">Удобный интерфейс</div>
+        <div class="col-12 col-md-6 col-xl-4 block">Не требует инсталляции</div>
+        <div class="col-12 col-md-6 col-xl-4 block">Планировщик заданий</div>
+        <div class="col-12 col-md-6 col-xl-4 block">Надежная работа</div>
+        <div class="col-12 col-md-6 col-xl-4 block">Интуитивное управление доменами</div>
+        <div class="col-12 col-md-6 col-xl-4 block">«Внятное» руководство пользователя</div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h2>Недостатки</h2>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-12 col-md-6 block">Отсутствуют автообновления</div>
+      </div>
+    </div>
+  </main>
+    <footer>
+      <h5>&copy WebDev 2023</h5>
+</footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+  </html>

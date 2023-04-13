@@ -1,0 +1,258 @@
+$background: linear-gradient(180deg, #213FA8 11.43%, #00A3FF 100%);
+$header:#263173;
+$button:#1D906E;
+$green:#49A68B;
+$menu-item:#1E5F84;
+$blue:#2da9c5;
+$white:white;
+$Roboto: 'Roboto',sans-serif;
+$Roboto-bold: 'Roboto-bold',sans-serif;
+$border-table:1px solid $white;
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.woff);
+    font-weight: normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: "Roboto-bold";
+    src: url(../fonts/Roboto-Bold.woff);
+    font-weight: 900;
+}
+
+body{
+    background: $background fixed center;
+    color: $white;
+    font-family: $Roboto;
+
+    .header{
+        background: $header;
+        --bs-navbar-toggler-icon-bg: url(../img/menu.jpg);
+
+        .navbar-toggler{
+            background-color: $green;
+            
+        }
+
+        .menu{
+            background-color: $header;
+    
+            h5{
+                margin: 0 auto;
+                margin-top: 20px;
+                color: $white;
+                font-family: $Roboto-bold;
+            }
+
+            }
+
+            .btn-close{
+                width: 30px;
+                height: 30px;
+                background-color: $white;
+            }
+        }
+    
+        .accordion{
+            --bs-accordion-border-color: none;
+            --bs-accordion-btn-focus-border-color: none;
+            --bs-accordion-btn-focus-box-shadow:none;
+            font-family: $Roboto-bold;
+            
+            .accordion-item{
+            margin: 0 auto;
+            width: 300px;
+            }
+            
+            .accordion-button{
+                background-color: $green;
+                border: 2px solid $button;
+                padding-left: 10px;
+                height: 100px;
+                width: 300px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 10px 16px rgba(0,0,0,0.2);
+            }
+            
+            .accordion-body{
+                background: $menu-item;
+                padding: 0;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 10px 16px rgba(0,0,0,0.2);
+                ul{
+                    padding-left: 0;
+                    li{
+                        position: relative;
+                        list-style: none;
+                        border-bottom: 3px solid #123950;
+                        width: 300px;
+                        height: 50px;
+                        text-align: center;
+                        box-shadow: 0 4px  rgba(0,0,0,0.2), 0 10px 16px rgba(0,0,0,0.2);
+                        &:last-child{
+                            border-bottom: none;
+                            margin-bottom: -20px;
+                        }
+                        
+                        a{
+                            line-height: 50px;
+                            text-decoration: none;
+                            color:$white;
+                            width: 300px;
+                            
+                            &::before {
+                                    content: '';
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                    }
+                
+                }
+            }
+        }
+
+        .main {
+            margin-top: 100px;
+            text-align: justify;
+
+            
+            p { 
+                font-size: 25px;
+                margin: 0;
+                text-indent: 25px;
+
+                span{
+                    color: orangered;
+                }
+            }
+            
+            a{
+                font-size: 20px;
+                line-height: 80px;
+                background-color: $button;
+                padding: 10px;
+                text-decoration: none;
+                color:$white;
+                border-radius: 5px;
+                
+                &:hover{
+                    background-color: $green;
+                    color: $header;
+                }
+            }
+
+            #btn_practice{
+                background-color: $button;
+                text-decoration: none;
+                border-radius: 50px;
+                font-weight: 600;
+                text-align: center;
+
+                &:hover{
+                    background-color: $green;
+                }
+            }
+
+            img{
+                margin: 10px auto;
+                display: block;
+                width: 1000px;
+
+            }
+
+            .git{
+                width: 400px;
+            }
+            
+            h2,h3,h4{
+                margin: 20px 0;
+                text-align: center;
+                font-size: 45px;
+            }
+    
+            .carousel-inner{
+                margin-bottom: 10px;
+            }
+
+            .block{
+                background-color: $blue;
+                border-radius: 5px;
+                text-align: center;
+                line-height: 30px;
+                margin: 5px;
+                padding: 10px;
+                height: auto;
+                font-size: 20px;
+                transition: 1s;
+
+                &:hover{
+                    background-color: $header;
+                }
+            }
+            
+            li{
+                font-size: 25px;
+            }
+            
+            
+            code{
+                    width: 100%;
+                    background: black;
+                    border: 1px solid $white;
+                    display: inline-block;
+                    color: $white;
+                    padding: 10px;
+                    white-space: pre;
+                    overflow-x: scroll;
+                }  
+                
+            table {
+                border: $border-table;
+                min-width: 300px;
+                margin: 0 auto;
+                background-color: #213FA8;
+                overflow-x: scroll;
+
+                caption{
+                    font-size: 30px;
+                    color: $white;
+                    text-align: center;
+                }
+
+                th{
+                    text-align: center;
+                    border: $border-table;
+                }
+                
+                tr{
+                    font-size: 20px;
+                    border: $border-table;
+
+                    td{
+                        
+                        padding: 5px;
+                        word-wrap: break-word;
+                        border: $border-table;
+                    }
+                }
+            }
+            
+        }
+
+        footer{
+            background-color: $header;
+            height: 100px;
+            text-align: center;
+            
+            h5{
+                padding-top: 32px;
+                font-size: 30px;
+            }
+        }
+    }
+
+    

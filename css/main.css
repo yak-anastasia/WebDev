@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto-bold";
+  src: url(../fonts/Roboto-Bold.woff);
+  font-weight: 900;
+}
+body {
+  background: linear-gradient(180deg, #213FA8 11.43%, #00A3FF 100%) fixed center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+body .header {
+  background: #263173;
+  --bs-navbar-toggler-icon-bg: url(../img/menu.jpg);
+}
+body .header .navbar-toggler {
+  background-color: #49A68B;
+}
+body .header .menu {
+  background-color: #263173;
+}
+body .header .menu h5 {
+  margin: 0 auto;
+  margin-top: 20px;
+  color: white;
+  font-family: "Roboto-bold", sans-serif;
+}
+body .header .btn-close {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+}
+body .accordion {
+  --bs-accordion-border-color: none;
+  --bs-accordion-btn-focus-border-color: none;
+  --bs-accordion-btn-focus-box-shadow:none;
+  font-family: "Roboto-bold", sans-serif;
+}
+body .accordion .accordion-item {
+  margin: 0 auto;
+  width: 300px;
+}
+body .accordion .accordion-button {
+  background-color: #49A68B;
+  border: 2px solid #1D906E;
+  padding-left: 10px;
+  height: 100px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 10px 16px rgba(0, 0, 0, 0.2);
+}
+body .accordion .accordion-body {
+  background: #1E5F84;
+  padding: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 10px 16px rgba(0, 0, 0, 0.2);
+}
+body .accordion .accordion-body ul {
+  padding-left: 0;
+}
+body .accordion .accordion-body ul li {
+  position: relative;
+  list-style: none;
+  border-bottom: 3px solid #123950;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.2), 0 10px 16px rgba(0, 0, 0, 0.2);
+}
+body .accordion .accordion-body ul li:last-child {
+  border-bottom: none;
+  margin-bottom: -20px;
+}
+body .accordion .accordion-body ul li a {
+  line-height: 50px;
+  text-decoration: none;
+  color: white;
+  width: 300px;
+}
+body .accordion .accordion-body ul li a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+body .main {
+  margin-top: 100px;
+  text-align: justify;
+}
+body .main p {
+  font-size: 25px;
+  margin: 0;
+  text-indent: 25px;
+}
+body .main p span {
+  color: orangered;
+}
+body .main a {
+  font-size: 20px;
+  line-height: 80px;
+  background-color: #1D906E;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+body .main a:hover {
+  background-color: #49A68B;
+  color: #263173;
+}
+body .main #btn_practice {
+  background-color: #1D906E;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+body .main #btn_practice:hover {
+  background-color: #49A68B;
+}
+body .main img {
+  margin: 10px auto;
+  display: block;
+  width: 1000px;
+}
+body .main .git {
+  width: 400px;
+}
+body .main h2, body .main h3, body .main h4 {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 45px;
+}
+body .main .carousel-inner {
+  margin-bottom: 10px;
+}
+body .main .block {
+  background-color: #2da9c5;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 30px;
+  margin: 5px;
+  padding: 10px;
+  height: auto;
+  font-size: 20px;
+  transition: 1s;
+}
+body .main .block:hover {
+  background-color: #263173;
+}
+body .main li {
+  font-size: 25px;
+}
+body .main code {
+  width: 100%;
+  background: black;
+  border: 1px solid white;
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  white-space: pre;
+  overflow-x: scroll;
+}
+body .main table {
+  border: 1px solid white;
+  min-width: 300px;
+  margin: 0 auto;
+  background-color: #213FA8;
+  overflow-x: scroll;
+}
+body .main table caption {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+body .main table th {
+  text-align: center;
+  border: 1px solid white;
+}
+body .main table tr {
+  font-size: 20px;
+  border: 1px solid white;
+}
+body .main table tr td {
+  padding: 5px;
+  word-wrap: break-word;
+  border: 1px solid white;
+}
+body footer {
+  background-color: #263173;
+  height: 100px;
+  text-align: center;
+}
+body footer h5 {
+  padding-top: 32px;
+  font-size: 30px;
+}

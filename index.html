@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Инструменты для веб-разработки</title>
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <nav class="navbar header fixed-top">
+            <div class="container-fluid">
+                <a href="index.html"><img class="img-fluid" src="img/logo.svg" alt="WebDev"></a>
+                <h1 id="header">Главная</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas menu offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Меню</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <!-- Аккордеон -->
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <!-- Visual Studio Code -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      Visual Studio Code
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      <ul>
+                        <li><a href="VS code/vscode.html">О программе</a></li>
+                        <li><a href="VS code/git.html">Git</a></li>
+                        <li><a href="VS code/plugins.html">Плагины</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Frontend -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpenheadingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      Frontend
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                      <ul>
+                        <li><a href="Frontend/jquery.html">jQuery</a></li>
+                        <li><a href="Frontend/react.html">React.js</a></li>
+                        <li><a href="Frontend/vue.html">Vue.js</a></li>
+                        <li><a href="Frontend/angular.html">Angular</a></li>
+                        <li><a href="Frontend/preprocessors.html">Препроцессоры</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Backend -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpenheadingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      Backend
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                      <ul>
+                        <li><a href="Backend/ospanel.html">Open Server Panel</a></li>
+                        <li><a href="Backend/laravel.html">Laravel</a></li>
+                        <li><a href="Backend/django.html">Django</a></li>
+                        <li><a href="Backend/node.html">Node.js</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Практические задания -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpenheadingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                      Практические задания
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                    <div class="accordion-body">
+                      <ul>
+                        <li><a href="practice.html">Практика по jQuery</a></li>
+                        <li><a href="practice.html#react">Практика по React.js</a></li>
+                        <li><a href="practice.html#vue">Практика по Vue.js</a></li>
+                        <li><a href="practice.html#angular">Практика по Angular</a></li>
+                        <li><a href="practice.html#laravel">Практика по Laravel</a></li>
+                        <li><a href="practice.html#django">Практика по Django</a></li>
+                        <li><a href="practice.html#nodejs">Практика по Node.js</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container main">
+      <div class="row">
+      <div class="col-12">
+        <h2>
+          WebDev - обзор инструментов веб-разработки с практическими заданиями
+        </h2>
+      </div>
+      <div class="col-12">
+        <div id="carouselExampleSlidesOnly  " class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/vscode.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/github.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/jquery.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/angular.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/reactjs.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/vue.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/ospanel.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/django.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/laravel.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/nodejs.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/fontawesome.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/fontello.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
